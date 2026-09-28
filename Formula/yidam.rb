@@ -11,28 +11,28 @@
 class Yidam < Formula
   desc "Corpus analysis and index CLI for yidam-derived repositories"
   homepage "https://github.com/goedelsoup/yidam"
-  version "0.15.0"
+  version "0.16.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.15.0/yidam-0.15.0-aarch64-apple-darwin.tar.gz"
-      sha256 "181cdf14a68669655992c11002973ac401ce6209170838de7e40fa364c4dcd43"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.16.0/yidam-0.16.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ce1b077da8d87819b9807b8252e0370a89626de7eedda108bc05139bddbabbad"
     end
     on_intel do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.15.0/yidam-0.15.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8687436ada947dd9dc7809f9ba75bceefa74015cd43c4ab4d93ca3e069005bfd"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.16.0/yidam-0.16.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1909f8aa08943cff6f56a8147dfcaa29c6b9de2652c4e0bb6e01636e7a9410b1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.15.0/yidam-0.15.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "73754bfc1cda7a71e7673d576f1b98cc37212a435edfa2f4c370bfd6b3feb973"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.16.0/yidam-0.16.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "534daf42902a0949672dd179769d9709fb85549ad8bd43b94acb0728f21cf4f6"
     end
     on_intel do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.15.0/yidam-0.15.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "89f5e2374b730ea8ff1fdddf6871564ccfbaca556b254139e009475799add7ac"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.16.0/yidam-0.16.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b51de2c33baef60a621eed3e42aae660a68f3165d1ede56e2c8b165f3fea0abb"
     end
   end
 
