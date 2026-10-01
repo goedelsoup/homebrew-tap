@@ -7,32 +7,32 @@
 # A binary formula, not a source one. The whole point of the tap is to skip a
 # compile: the light `reports` build is what ships, and `--features full`
 # (index-build, serve --mcp, the sqlite/rdf exports) remains a source build
-# because it needs protoc and an ONNX runtime.
+# because it needs an ONNX runtime.
 class Yidam < Formula
   desc "Corpus analysis and index CLI for yidam-derived repositories"
   homepage "https://github.com/goedelsoup/yidam"
-  version "0.17.0"
+  version "0.18.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.17.0/yidam-0.17.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e7916624006fa32bb5240e243e35695013db30879ef32e2e817aa780ace8e475"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.18.0/yidam-0.18.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c550d2c88ece6df6bfdb7632fbd71b41a900379b0895dbcf37ea22a1978aa4e1"
     end
     on_intel do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.17.0/yidam-0.17.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ab691b3bbf6428cbbe4981bbc5b7337d877d24bd79adc6b86ac8bd7da1de9602"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.18.0/yidam-0.18.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3c545a608d6c0c08622282ae4cb019c1c514e6d1666d0dc70f306816f407933c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.17.0/yidam-0.17.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "583d4c3e2b151f5936d7e09e3381115a2a540f843d8d90bce63cf73015c1d73a"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.18.0/yidam-0.18.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "73a00739813078a82c46f2f1ed1e999ad778293c6f2742c11ae66cde2c401ccb"
     end
     on_intel do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.17.0/yidam-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "999b7917e1bb60d0d8cc7752dbedae9aa67e52641381b97de9ddbb8f91edc493"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.18.0/yidam-0.18.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "66794bc292b874ddf37d7a7a7505390123249ca1e852fac6fc923fe52bcc9b09"
     end
   end
 
