@@ -11,17 +11,17 @@
 class Yidam < Formula
   desc "Corpus analysis and index CLI for yidam-derived repositories"
   homepage "https://github.com/goedelsoup/yidam"
-  version "0.22.0"
+  version "0.23.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.22.0/yidam-0.22.0-aarch64-apple-darwin.tar.gz"
-      sha256 "10705cad0019fa4a78f47d898c75637888e5a006e6e6b7070f30f470b0c9f144"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.23.0/yidam-0.23.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a49b1656eecbd2a0500a70f9024c14c2f6209fcc00a491c54719e825f8f795d7"
     end
     on_intel do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.22.0/yidam-0.22.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0db449cf5d7c23403c54e0571097fe54951824c7e15fa21451c3defa1cad0454"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.23.0/yidam-0.23.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e5840ef3abfa7e46db0edf55296bbda728390249808c6bfc1cca314b5abefc00"
       # The one target `ort` publishes no prebuilt ONNX Runtime for, so this
       # binary loads libonnxruntime.dylib (1.24 or newer) when a command embeds.
       # Every other platform's binary links the runtime statically.
@@ -31,12 +31,12 @@ class Yidam < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.22.0/yidam-0.22.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e87384e24af1557277c1be3dd0cd5358ebfebe2ea97437653a723123d08bfe66"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.23.0/yidam-0.23.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1cd35861f40707b9eeb11ee50892105ba4b03127806d884180dda7083e943bdf"
     end
     on_intel do
-      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.22.0/yidam-0.22.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "829737326df0006a570a528100415e1f8688e379599e5ebe4ac4ff3276982e15"
+      url "https://github.com/goedelsoup/yidam/releases/download/cli/v0.23.0/yidam-0.23.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "94320a9344db09d0817cde122f2f6f587cd968bdf9a235ec2e75d5c3e5534e83"
     end
   end
 
